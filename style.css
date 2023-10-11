@@ -1,13 +1,15 @@
 img{
-    max-width: 150px;
+    max-width: 200px;
     max-height: auto;
     border: 3px solid black;
-    padding-left: 65px;
-    padding-right: 65px;
 }
 .div1{
     display: grid;
     grid-template-columns: 1fr 5fr;
+    grid-template-rows: 25vh 15vh 80vh 23vh;
+}
+aside{
+    padding-top: 20px;
 }
 
 header{
@@ -21,6 +23,10 @@ header{
     margin-bottom: 5px;
 }
 nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
     color: white;
     background-color: black;
     text-align: center;
@@ -29,4 +35,27 @@ nav{
     margin-left: 2px;
     margin-top: 5px;
     margin-bottom: 5px;
+    max-height: 150px;
+    text-align: center;
+    padding-top: 25px;
+}
+main{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+    max-height: 6000px; 
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 2px;
+    margin-top: 4px;
+    margin-bottom: 1px;
+    
 }
